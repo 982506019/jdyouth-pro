@@ -1,0 +1,45 @@
+<!--exam.wxml-->
+<view class="page">
+  <view class="weui-cells__title">已安排考试列表</view>
+  <view class="card" wx:for="{{exam}}">
+    <view class="cell">
+      {{item.name}}
+    </view>
+    <view class="cell">
+      <view class="title">座号</view>
+      <view class="desc">{{item.seatNumber}}</view>
+    </view>
+    <view class="cell">
+      <view class="title">考试时间</view>
+      <view class="desc">{{item.datetime}}</view>
+    </view>
+    <view class="cell">
+      <view class="title">考试地点</view>
+      <view class="desc">{{item.address}}</view>
+    </view>
+    <view class="cell">
+      <view class="title">任课老师</view>
+      <view class="desc">{{item.teacher}}</view>
+    </view>
+    <view class="cell">
+      <view class="title">学分</view>
+      <view class="desc">{{item.score}}</view>
+    </view>
+    <view class="cell">
+      <view class="title">课程性质</view>
+      <view class="desc">{{item.type}}</view>
+    </view>
+    <view class="cell">
+      <view class="title">考试形式</view>
+      <view class="desc">{{item.mode}}</view>
+    </view>
+    <view class="cell">
+      <view class="title">考试方式</view>
+      <view class="desc">{{item.mode2}}</view>
+    </view>
+    <view class="cell">
+      <view class="title">考试状态</view>
+      <view class="desc">{{item.status}}</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,17 @@
+/* account.wxss */
+.head{
+  text-align: center;
+  background: #ffffff;
+  padding-bottom: 20px;
+}
+.avatar{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10%;
+  margin-top: 20px;
+  margin-bottom: 10px; 
+}
+
+.jd-btn{
+  margin: 40px 30px;
+}

@@ -1,0 +1,28 @@
+/* demo.wxss */
+/** wxss **/
+
+.page__title{
+  font-size: 12pt;
+  padding: 10px;
+}
+
+.page__bd {
+  padding-bottom: 0px;
+}
+.weui-grid__label{
+  color: #444;
+  font-weight: 120;
+}
+
+.head{
+  text-align: center;
+  background: #ffffff;
+  padding-bottom: 20px;
+}
+.avatar{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10%;
+  margin-top: 20px;
+  margin-bottom: 10px; 
+}

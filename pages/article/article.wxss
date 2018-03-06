@@ -1,0 +1,99 @@
+/* article.wxss */
+
+@import '../../component/wxParser/index.wxss'
+page {
+  background: #fff;
+}
+
+.page {
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 20pt;
+  min-height: 84px;
+  padding: 20px 40px;
+  margin-bottom: 10px;
+}
+
+.author {
+  color: #999;
+  padding:0 40px;
+  margin-bottom: 10px;
+}
+
+/* view:not(.wxParser-img){
+  margin: 0 40px;
+} */
+
+.wxParser-div,
+.wxParser-p,
+{
+  word-break: break-all;
+  overflow: auto;
+  max-width: 100%;
+}
+.wxParserText{
+  padding: 0;
+}
+.wxParser-inline {
+  display: block;
+  margin: 0px 20px;
+  padding: 0;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  font-weight: 200;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wxParser-div {
+  margin: 10px 0;
+  padding: 0;
+}
+
+.wxParser-p {
+  margin: 6rpx;
+  margin-bottom: 20px;
+}
+
+.wxParser-br {
+  height: 1em;
+}
+
+.wxParser-h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+.wxParser-h2 {
+  font-size: 1.5em;
+  margin: .75em 0;
+}
+
+.wxParser-h3 {
+  font-size: 1.17em;
+  margin: .83em 0;
+}
+
+.wxParser-h4 {
+  margin: 1.12em 0;
+}
+
+.wxParser-h5 {
+  font-size: .83em;
+  margin: 1.5em 0;
+}
+
+.wxParser-h6 {
+  font-size: .75em;
+  margin: 1.67em 0;
+}
+
+/* .wxParser-span{
+  margin: 0 40px;
+} */
+
+.wxParser-img {
+  overflow: hidden;
+  width: 100%;
+}

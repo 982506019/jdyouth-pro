@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="page">
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" vertical="true" style="width:100%;height:100%;">
+  <block wx:for="{{list}}" wx:key="unique" wx:for-item="item">
+    <swiper-item>
+    <navigator url="/pages/article/article?id={{item.id}}" hover-class="hover">
+      <image src="{{item.cover}}" class="slide-image"/>
+      <view class="title">{{item.title}}</view>
+      <view class="summary">{{item.description}}</view>
+    </navigator>
+    </swiper-item>
+  </block>
+</swiper>
+</view>

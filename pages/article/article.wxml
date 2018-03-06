@@ -1,0 +1,13 @@
+<!--article.wxml-->
+<import src="../../component/wxParser/index.wxml"/>
+  <view class="page">
+    <view class="title">
+      {{detail.title}}
+    </view>
+    <view class="author">
+      建大青年 201716546
+    </view>
+    <view class="wxParser">
+      <template is="wxParser" data="{{wxParserData:richText.nodes}}" />
+    </view>
+  </view>

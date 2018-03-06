@@ -1,0 +1,14 @@
+<!--category.wxml-->
+<navigator url='/pages/search/search'>
+<view class='red-searchbar'>
+  <view class='red-input' bindtap=''>
+  <text>搜索</text>
+  </view>
+  <text class='red-button' bindtap="search">取消</text>
+</view>
+</navigator>
+<view class="hide{{showView?'show':''}}">
+  <view class='red-category'>
+    <text class='red-category-item'>建大朋友圈</text>
+  </view>
+</view>

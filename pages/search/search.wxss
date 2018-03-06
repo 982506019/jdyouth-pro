@@ -1,0 +1,73 @@
+/* pages/search/search.wxss */
+page{
+  height: 100%;
+  background: #f1f1f1;
+}
+.red-input{
+  border: 1px #e6e6e6 solid;
+  border-radius: 5px;
+  width: 80%;
+  height: 35px;
+  background: #e6e6e6;
+  padding-left:10px; 
+}
+
+.red-searchbar{
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px #e6e6e6 solid;
+  background: #ffffff;
+}
+
+.hide{
+ display: none;
+}
+.show{ 
+ display: block;
+}
+
+.red-card{
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 5px 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.red-card .red-left{
+  flex-grow: 1;
+  height: 100%;
+  box-sizing: border-box;
+  padding-right: 8px;
+}
+
+.red-card .red-right{
+  width: 90px;
+  height: 90px;
+}
+
+.red-right image{
+  width: 85px;
+  height: 85px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title{
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.summary{
+  font-size: 0.9em;
+  font-weight: 300px;
+  color: #b2b2b2;
+}

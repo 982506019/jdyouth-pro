@@ -1,0 +1,17 @@
+<template name="hSwiperItem">
+  <view class="itemSelf">
+    <image src="http://olihzl1fl.bkt.clouddn.com/card.jpg" style="width:100%;height:450rpx;"></image>
+    <view class="title">
+    建大青年说
+    </view>
+    <view class="summary">
+    飞拉萨酱豆腐拉上几个啦少见多怪了卡手机啊手里的股价拉升阶段过来咯时间管理会计阿拉斯加道格拉斯就道格拉斯阿里山的感觉啊零售价格
+    </view>
+    <button class="weui-btn" type="default" data-typeid="{{item}}" style="margin: 20px;" bindtap="tap">点击进入</button>
+  </view>
+</template>
+
+<template name="templateb">
+  
+  {{item}}
+</template>

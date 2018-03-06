@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/all/all",
+    "pages/user/user",
+    "pages/category/category",
+    "pages/jiaowu/grade/grade",
+    "pages/jiaowu/exam/exam",
+    "pages/jiaowu/course/course",
+    "pages/jiaowu/classroom/classroom",
+    "pages/jiaowu/calendar/calendar",
+    "pages/account/account",
+    "pages/article/article",
+    "pages/search/search",
+    "pages/group/group"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTitleText": "建大青年Pro",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "文章",
+        "iconPath": "images/form.png",
+        "selectedIconPath": "images/form-active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "专栏",
+        "iconPath": "images/category.png",
+        "selectedIconPath": "images/category-active.png"
+      },
+      {
+        "pagePath": "pages/all/all",
+        "text": "全部",
+        "iconPath": "images/all.png",
+        "selectedIconPath": "images/all-active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user-active.png"
+      }
+    ]
+  }
+}

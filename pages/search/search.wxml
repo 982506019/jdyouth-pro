@@ -1,0 +1,18 @@
+<!--pages/search/search.wxml-->
+<view class='red-searchbar'>
+  <input class='red-input' auto-focus='true' placeholder="搜索" bindconfirm='bindconfirm' bindinput='bindinput' />
+  <text class='red-button' bindtap="search">{{showView?'搜索':'取消'}}</text>
+</view>
+<block wx:for="{{resultList}}" wx:key="unique" wx:for-item="item">
+  <navigator url="/pages/article/article?id={{item.id}}" hover-class="hover">
+    <view class='red-card'>
+      <view class='red-left'>
+        <view class="title">{{item.title}}</view>
+        <view class="summary">{{item.description}}</view>
+      </view>
+      <view class='red-right'>
+        <image src="{{item.cover}}" />
+      </view>
+    </view>
+  </navigator>
+</block>

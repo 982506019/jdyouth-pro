@@ -1,0 +1,21 @@
+/* user.wxss */
+
+.head{
+  text-align: center;
+  background: #ffffff;
+  padding-bottom: 10px;
+}
+.avatar{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 10px; 
+}
+.weui-cell__bd{
+  line-height: 24px;
+}
+
+.weui-cell__ft{
+  line-height: 24px;
+}

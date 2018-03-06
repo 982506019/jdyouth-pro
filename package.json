@@ -1,0 +1,13 @@
+{
+  "name": "jdyouth-pro",
+  "version": "1.0.6",
+  "description": "建大青年pro",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tencentyun/weapp-client-demo.git"
+  },
+  "keywords": [],
+  "author": "CFETeam",
+  "license": "MIT"
+}
